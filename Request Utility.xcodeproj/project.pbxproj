@@ -11,6 +11,8 @@
 		9FA51EE4257AA4D4005718F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA51EE3257AA4D4005718F1 /* ContentView.swift */; };
 		9FA51EE6257AA4E6005718F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA51EE5257AA4E6005718F1 /* Assets.xcassets */; };
 		9FA51EE9257AA4E6005718F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA51EE8257AA4E6005718F1 /* Preview Assets.xcassets */; };
+		9FA5B74B257C166D000FC80B /* StringListEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5B74A257C166D000FC80B /* StringListEditor.swift */; };
+		9FC9478A257C6D1D00B53D0F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC94789257C6D1D00B53D0F /* Base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9FA51EE8257AA4E6005718F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FA51EEA257AA4E6005718F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FA51EEB257AA4E6005718F1 /* Request_Utility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Request_Utility.entitlements; sourceTree = "<group>"; };
+		9FA5B74A257C166D000FC80B /* StringListEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringListEditor.swift; sourceTree = "<group>"; };
+		9FC94789257C6D1D00B53D0F /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				9FA51EE1257AA4D4005718F1 /* Request_UtilityApp.swift */,
 				9FA51EE3257AA4D4005718F1 /* ContentView.swift */,
+				9FC94789257C6D1D00B53D0F /* Base.swift */,
+				9FA5B74A257C166D000FC80B /* StringListEditor.swift */,
 				9FA51EE5257AA4E6005718F1 /* Assets.xcassets */,
 				9FA51EEA257AA4E6005718F1 /* Info.plist */,
 				9FA51EEB257AA4E6005718F1 /* Request_Utility.entitlements */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC9478A257C6D1D00B53D0F /* Base.swift in Sources */,
+				9FA5B74B257C166D000FC80B /* StringListEditor.swift in Sources */,
 				9FA51EE4257AA4D4005718F1 /* ContentView.swift in Sources */,
 				9FA51EE2257AA4D4005718F1 /* Request_UtilityApp.swift in Sources */,
 			);

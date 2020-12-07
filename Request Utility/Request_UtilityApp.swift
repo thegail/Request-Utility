@@ -11,7 +11,7 @@ import SwiftUI
 struct Request_UtilityApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			ContentView().navigationTitle("Request Utility")
         }
     }
 }
